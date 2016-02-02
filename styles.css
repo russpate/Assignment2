@@ -1,3 +1,61 @@
-body{
-  background:blue;
+* {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  font-family: sans-serif;
+  font-weight: bold;
+  color:#d0d0d0;
+  clear:both;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+.octodex {
+    display: block;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+.octocat {
+    display: inline-block;
+    list-style:none;
+    width: 32%;
+    margin:0 5px;
+}
+.octocat > a > img{
+  width:100%;
+  border: 1px solid #D0D0D0;
+  border-radius: 3px;
+  vertical-align:top;
+}
+.image-footer{
+  border-bottom: 1px solid #d0d0d0;
+  font-size:13px;
+  width:100%;
+}
+.image-footer li a img{
+  border-radius:25%;
+  width:44%;
+}
+.image-number{
+  color: #BBB7B7;
+}
+.image-number:before{
+  content:"#";
+}
+.image-caption{
+  display:inline-block;
+  text-align:right;
+  width:90%;
+}
+.authors{
+  display:inline-block;
+  width:15%;
+
+}
+.authors li{
+  display:inline;
+  list-style:none;
 }
