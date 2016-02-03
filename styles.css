@@ -32,7 +32,6 @@ a{
 .image-footer{
   border-bottom: 1px solid #d0d0d0;
   font-size:13px;
-  /*width:100%;*/
 }
 .image-footer li a img{
   border-radius:10%;
@@ -52,7 +51,6 @@ a{
   display:inline-block;
 }
 .image-number{
-  /*float:left;*/
   color: #BBB7B7;
   position:relative;
   top:25px;
@@ -64,8 +62,6 @@ a{
   display:inline-block;
   text-align:right;
   padding-bottom: 3%;
-  /*width:86%;
-  padding:10px 0;*/
 }
 .authors{
   display:inline-block;
@@ -76,6 +72,3 @@ a{
   display:inline;
   list-style:none;
 }
-/*.image-caption span, .image-caption a {
-    vertical-align: middle;
-}*/
